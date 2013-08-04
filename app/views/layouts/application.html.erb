@@ -7,8 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="navbar navbar-fixed-top">
+		<a class="navbar-brand" href="#">Liambook</a>
+			<ul class="nav navbar-nav">
+					<li><%= link_to "View All Statuses", statuses_path %></li>
+					<Li class"active"><a class="active" href="#">Liam Oliver</a></li>
+					<li><a href="www.alyssatalbot.com">Alyssa Talbot</a></li>
 
+			</ul>
+		</Div>
+	</div>
+	<div class="container">
 <%= yield %>
-
+</div>
 </body>
 </html>
